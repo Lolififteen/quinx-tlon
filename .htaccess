@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteRule ^home?$ index.html
+RewriteRule ^staff?$ html/staff.html
+RewriteRule ^lfg?$ html/lfg.html
+RewriteRule ^supporters?$ html/supporters.html

@@ -1,0 +1,290 @@
+header {
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(10, 15, 17, 0.85), rgba(10, 15, 17, 0.85)), url(../images/hero-wallpaper.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 1300px) {
+    header {
+        height: 100%;
+        padding-bottom: 1rem;
+    }
+}
+
+/* Titles and headers */
+
+.hero-title {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+@media (max-width: 1300px) {
+    .hero-title {
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+.discord-widget-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 5rem auto 3rem auto;
+}
+
+.discord-word {
+    color: #6680FF;
+}
+
+
+.features-title,
+.rules-title {
+    margin: 5rem auto 3rem auto;
+}
+
+.founder-name {
+    font-weight: bold;
+    color: #6680FF;
+}
+
+.rules-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.features-description {
+    font-weight: bold;
+}
+
+.server-regulations-title,
+.clan-regulations-title {
+    font-weight: bold;
+    margin: 0.5rem auto 0.8rem auto;
+    text-align: center;
+    color: #6680FF;
+}
+
+/* Hero section */
+
+.hero-container {
+    max-width: 1300px;
+    display: flex;
+    padding: 0 2rem;
+    margin: 4rem auto 0 auto;
+    gap: 3rem;
+}
+
+@media (max-width: 1300px) {
+    .hero-container {
+        flex-flow: column;
+        align-items: center;
+        margin: 2rem auto 0 auto;
+    }
+}
+
+@media (max-width: 650px) {
+    .hero-container {
+        padding: 0 1rem;
+    }
+}
+
+.hero-info {
+    margin-top: 1rem;
+    width: 600px;
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+}
+
+@media (max-width: 1300px) {
+    .hero-info {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 650px) {
+    .hero-info {
+        width: auto;
+    }
+}
+
+.hero-info .value {
+    font-weight: bold;
+    color: #6680FF;
+}
+
+.clans-container {
+    display: flex;
+    gap: 1rem;
+}
+
+@media (max-width: 650px) {
+    .clans-container {
+        text-align: center;
+        flex-flow: column;
+        gap: 0.3rem;
+    }
+}
+
+.clans-container>.clan-name {
+    padding: 0.4rem 0.7rem;
+    color: #efefef;
+    background-color: #14191e;
+    border-radius: 0.3rem;
+    border: 1px solid #efefef;
+}
+
+.hero-button {
+    padding: 1rem 2rem;
+    margin-top: 0.7rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #efefef;
+    background-image: linear-gradient(to right top, #363e92, #424eac, #4f5ec7, #5a6fe3, #6680ff);
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 8px 0px rgba(5, 5, 5, 0.3);
+}
+
+.hero-button:hover {
+    cursor: pointer;
+}
+
+.hero-video {
+    width: 600px;
+}
+
+@media (max-width: 650px) {
+    .hero-video {
+        width: auto;
+    }
+}
+
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 8px 0px rgba(5, 5, 5, 0.3);
+}
+
+/* Main section */
+
+.main-container {
+    max-width: 1300px;
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto 2rem auto;
+    padding: 0 2rem;
+}
+
+@media (max-width: 900px) {
+    .main-container {
+        padding: 0 1rem;
+    }
+}
+
+.discord-widget {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 8px 0px rgba(5, 5, 5, 0.3);
+}
+
+.features-container {
+    padding: 0.5rem 2rem 1.5rem 2rem;
+    background-image: linear-gradient(to right, rgba(9, 23, 28, 0.85), rgba(18, 23, 28, 0.85)), url(../images/features-background.webp);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 8px 0px rgba(5, 5, 5, 0.3);
+    border-radius: 0.3rem;
+}
+
+@media (max-width: 900px) {
+    .features-container {
+        padding: 0.5rem 1.5rem 1.5rem 1.5rem;
+    }
+}
+
+.features-description {
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    color: #6680FF;
+}
+
+.features-list {
+    display: flex;
+    flex-flow: column;
+    gap: 0.7rem;
+    padding-left: 1rem;
+}
+
+.rules-container {
+    display: flex;
+    gap: 2rem;
+}
+
+@media (max-width: 1200px) {
+    .rules-container {
+        flex-flow: column;
+    }
+}
+
+.server-regulations,
+.clan-regulations {
+    height: 100%;
+    flex: 1;
+    padding: 2rem;
+    background-image: linear-gradient(to right, rgba(18, 23, 28, 0.85), rgba(18, 23, 28, 0.85)), url(../images/server-regulations-background.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 8px 0px rgba(5, 5, 5, 0.3);
+}
+
+.clan-regulations {
+    background-image: linear-gradient(to right, rgba(18, 23, 28, 0.85), rgba(18, 23, 28, 0.85)), url(../images/clan-regulations-background.webp);
+}
+
+@media (max-width: 900px) {
+
+    .server-regulations,
+    .clan-regulations {
+        padding: 2rem 1.5rem;
+    }
+}
+
+.server-regulations-olist,
+.clan-regulations-olist,
+.server-regulations-sublist,
+.clan-regulations-sublist {
+    display: flex;
+    flex-flow: column;
+    gap: 0.7rem;
+    padding: 1rem;
+}
+
+.server-regulations-sublist {
+    list-style-type: none;
+}
+
+.clan-regulations-sublist {
+    margin-top: 0.7rem;
+    padding: 0 0 0 1.2rem;
+    list-style-type: upper-latin;
+}
+
+.discord-icon {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+.wolf-icon {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
